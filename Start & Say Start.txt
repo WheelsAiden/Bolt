@@ -1,0 +1,17 @@
+//Team Members: Caleb Hermann & Aiden Walker
+//Date 1.8.2025
+//Program: Hello World
+//Hardware: Bolt #SB-EC76
+
+
+
+async function startProgram() {
+	
+	
+	//Start & Say Start
+	//Bolt will say start across LED's & say it outloud
+	//Driver: Caleb
+	//Navigator: Aiden
+	
+	await scrollMatrixText('start',{r:0,g:255,b:0},10,true);
+	await speak('Start', true);
