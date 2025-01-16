@@ -1,0 +1,35 @@
+//Team Members: Caleb Hermann & Aiden Walker
+//Date 1.8.2025
+//Program: Pre comp
+//Hardware: Bolt #SB-EC76
+
+
+
+async function startProgram() {
+	
+	
+	//Start & Say Start
+	//Bolt will say start across LED's & say it outloud
+	//Driver: Caleb
+	//Navigator: Aiden
+	
+	await scrollMatrixText('start',{r:0,g:255,b:0},10,true);
+	await speak('Start', true);
+
+
+        // LED's will turn red
+	//Driver: Aiden
+	//Navigator: Caleb
+	
+	setMainLed ({r: 255, g: 0, b: 0 });
+
+
+
+        //Bolt will move forard turn 90 right then go forward again
+	//Driver: Caleb
+	//Navigator: Aiden
+	
+	await roll(0, 200, 1);
+	await delay(1);
+	await roll(90, 200, 1);
+	
