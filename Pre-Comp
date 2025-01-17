@@ -41,6 +41,3 @@ async function startProgram() {
 	await Sound.Animal.play(true);
 
 }
-
-
-}
