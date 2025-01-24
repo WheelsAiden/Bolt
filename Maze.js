@@ -10,7 +10,9 @@ async function startProgram() {
   //Bolt will say start across LED's & say it outloud
   //Driver: Aiden
   //Navigator: Caleb
-
+  
+  await scrollMatrixText('start',{r:0,g:255,b:0},10,true);
+	await speak('Start', true);
 
 
 
