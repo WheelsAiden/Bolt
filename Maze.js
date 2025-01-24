@@ -12,7 +12,8 @@
 //Bolt will say start across LED's & say it outloud
 //Driver: Aiden
 //Navigator: Caleb
-  await scrollMatrixText('start',{r:0,g:255,b:0},10,true);
+
+	await scrollMatrixText('start',{r:0,g:255,b:0},10,true);
 	await speak('Start', true);
 
 
@@ -21,6 +22,7 @@
 //Driver: Caleb
 //Navigator: Aiden
 
+	await roll(0, 50, 2.5);
 
 //Shound #1 Checkpoint
 //Bolt makes sound of choice - Update Sound
