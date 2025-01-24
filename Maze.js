@@ -22,13 +22,17 @@
 //Driver: Caleb
 //Navigator: Aiden
 
-	await roll(0, 50, 2.5);
+	await roll(0, 50, 2.7);
+	await delay(2.7);
 
 //Shound #1 Checkpoint
 //Bolt makes sound of choice - Update Sound
 //Driver: Caleb
 //Navigator: Aiden
 
+	await roll(90, 50, 1.8);
+	await delay(1.8);
+	await roll(180, 50, 1);
 
 //Red Checkpoint
 //LED's turn Red
