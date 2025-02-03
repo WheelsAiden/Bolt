@@ -1,3 +1,4 @@
+
 //Team Members: Caleb Hermann & Aiden Walker
 //Date 1.24.2025
 //Program: Maze
@@ -5,53 +6,59 @@
 
 
 //Begin Pragram
-  async function startProgram() {
+ async function startProgram() {
 
 //Start & Say Start
 //Bolt will say start across LED's & say it outloud
 //Driver: Aiden
 //Navigator: Caleb
-
-	await scrollMatrixText('start',{r:255,g:0,b:0},10,true);
-	await speak('Start', true);
+/*
+ await scrollMatrixText('start',{r:0,g:255,b:0},10,true);
+ await speak('Start', true);
+*/
 
 //Green Checkpoint
 //LED's turn Green
 //Driver: Caleb
 //Navigator: Aiden
 
-  await roll(0,74,2);
-	await delay(2);
-	await setMainLed({r:0, g:255, b:0})
+ await roll(0,74,2);
+ await delay(2);
+ await setMainLed({r:0, g:255, b:0})
+
 
 //Sound #1 Checkpoint
 //Bolt makes sound of choice - Update Sound
 //Driver: Aiden
 //Navigator: Caleb
 
-  await roll(90, 52, 2);
-	await delay (2);
-	await roll (180, 38, 2);
-	await delay (2);
-	await Sound.Animal.Monkey.play(true);
+ await roll(90, 53, 2);
+ await delay (2);
+ await roll (180, 38, 2);
+ await delay (2);
+ await Sound.Animal.Monkey.play(true);
+
 
 //Red Checkpoint
 //LED's turn Red
 //Driver: Caleb
 //Navigator: Aiden
 
-await roll(215, 41, 2);
-await delay (2);
-await roll(125, 33, 2);
-await delay (2);
-await setMainLed({r:255, g:0, b:0})
+ await roll(215, 41, 2);
+ await delay (2);
+ await roll(125, 31, 2);
+ await delay (2);
+ await setMainLed({r:255, g:0, b:0})
 
-//Shound #2 Checkpoint
+
+//Sound #2 Checkpoint
 //Bolt makes sound of choice - Update Sound
 //Driver: Aiden
 //Navigator: Caleb
 
-
+ await roll(35, 41, 2);
+ await delay(2);
+ await Sound.Animal.Monkey.Play(true);
 
 //Purple Checkpoint
 //LED's turn Purple
@@ -60,7 +67,7 @@ await setMainLed({r:255, g:0, b:0})
 
 
 
-//Shound #3 Checkpoint
+//Sound #3 Checkpoint
 //Bolt makes sound of choice - Update Sound
 //Driver: Aiden
 //Navigator: Caleb
