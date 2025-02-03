@@ -40,7 +40,11 @@
 //Driver: Caleb
 //Navigator: Aiden
 
-
+await roll(215, 41, 2);
+await delay (2);
+await roll(125, 33, 2);
+await delay (2);
+await setMainLed({r:255, g:0, b:0})
 
 //Shound #2 Checkpoint
 //Bolt makes sound of choice - Update Sound
