@@ -26,7 +26,6 @@
  await delay(2);
  await setMainLed({r:0, g:255, b:0})
 
-
 //Sound #1 Checkpoint
 //Bolt makes sound of choice - Update Sound
 //Driver: Aiden
@@ -38,7 +37,6 @@
  await delay (2);
  await Sound.Animal.Monkey.play(true);
 
-
 //Red Checkpoint
 //LED's turn Red
 //Driver: Caleb
@@ -49,7 +47,6 @@
  await roll(125, 31, 2);
  await delay (2);
  await setMainLed({r:255, g:0, b:0})
-
 
 //Sound #2 Checkpoint
 //Bolt makes sound of choice - Update Sound
