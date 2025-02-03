@@ -12,64 +12,62 @@
 //Driver: Aiden
 //Navigator: Caleb
 
-//await scrollMatrixText('start',{r:0,g:255,b:0},10,true);
-//await speak('Start', true);
-
+	await scrollMatrixText('start',{r:255,g:0,b:0},10,true);
+	await speak('Start', true);
 
 //Green Checkpoint
 //LED's turn Green
 //Driver: Caleb
 //Navigator: Aiden
 
-	  
 
-	  
+
 //Shound #1 Checkpoint
 //Bolt makes sound of choice - Update Sound
-//Driver: Caleb
-//Navigator: Aiden
-
-	  
-
-//Red Checkpoint
-//LED's turn Red
 //Driver: Aiden
 //Navigator: Caleb
 
 
-	
-//Shound #2 Checkpoint
-//Bolt makes sound of choice - Update Sound
+
+//Red Checkpoint
+//LED's turn Red
 //Driver: Caleb
 //Navigator: Aiden
+
+
+
+//Shound #2 Checkpoint
+//Bolt makes sound of choice - Update Sound
+//Driver: Aiden
+//Navigator: Caleb
 
 
 
 //Purple Checkpoint
 //LED's turn Purple
-//Driver: Aiden
-//Navigator: Caleb
+//Driver: Caleb
+//Navigator: Aiden
 
 
 
 //Shound #3 Checkpoint
 //Bolt makes sound of choice - Update Sound
-//Driver: Caleb
-//Navigator: Aiden
-
-
-//Blue Checkpoint
-//LED's turn Purple
 //Driver: Aiden
 //Navigator: Caleb
 
 
-//Finished & Say Finish
-//Bolt will say Finished across LED's & say it out loud
+//Blue Checkpoint
+//LED's turn Purple
 //Driver: Caleb
 //Navigator: Aiden
 
-	
+
+//Finished & Say Finish
+//Bolt will say Finished across LED's & say it out loud
+//Driver: Aiden
+//Navigator: Caleb
+
+
+
 //End Program
 }
-
