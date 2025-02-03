@@ -24,12 +24,16 @@
 	await delay(2);
 	await setMainLed({r:0, g:255, b:0})
 
-//Shound #1 Checkpoint
+//Sound #1 Checkpoint
 //Bolt makes sound of choice - Update Sound
 //Driver: Aiden
 //Navigator: Caleb
 
-
+  await roll(90, 52, 2);
+	await delay (2);
+	await roll (180, 38, 2);
+	await delay (2);
+	await Sound.Animal.Monkey.play(true);
 
 //Red Checkpoint
 //LED's turn Red
