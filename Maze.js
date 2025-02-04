@@ -12,10 +12,9 @@
 //Bolt will say start across LED's & say it outloud
 //Driver: Aiden
 //Navigator: Caleb
-/*
- await scrollMatrixText('start',{r:0,g:255,b:0},10,true);
+
+ await scrollMatrixText('start',{r:0,g:255,b:0},20,true);
  await speak('Start', true);
-*/
 
 //Green Checkpoint
 //LED's turn Green
@@ -25,7 +24,6 @@
  await roll(0,74,2);
  await delay(1.5);
  await setMainLed({r:0, g:255, b:0})
-
 
 //Sound #1 Checkpoint
 //Bolt makes sound of choice - Update Sound
@@ -38,7 +36,6 @@
  await delay (1.5);
  await Sound.Animal.Monkey.play(true);
 
-
 //Red Checkpoint
 //LED's turn Red
 //Driver: Caleb
@@ -49,7 +46,6 @@
  await roll(125, 28, 2);
  await delay (1.5);
  await setMainLed({r:255, g:0, b:0})
-
 
 //Sound #2 Checkpoint
 //Bolt makes sound of choice - Update Sound
@@ -71,13 +67,12 @@
  await setMainLed({r:255, g:0, b:255})
  await delay (1.5);
 
-
 //Sound #3 Checkpoint
 //Bolt makes sound of choice - Update Sound
 //Driver: Aiden
 //Navigator: Caleb
 
-  await roll (90, 32, 2);
+  await roll (90, 31, 2);
   await delay (1.5);
   await roll(0, 31, 2)
   await delay(1.5)
@@ -88,12 +83,18 @@
 //Driver: Caleb
 //Navigator: Aiden
 
+   await roll (-45, 36, 2);
+   await delay (1.5);
+   await setMainLed({r:0, g:0, b:255})
+   await roll (0, 255, 2);
 
 //Finished & Say Finish
 //Bolt will say Finished across LED's & say it out loud
 //Driver: Aiden
 //Navigator: Caleb
 
+ await scrollMatrixText('Fin',{r:255,g:0,b:0},20,true);
+ await speak('Finished', true);
 
 
 //End Program
