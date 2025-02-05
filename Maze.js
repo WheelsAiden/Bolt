@@ -1,4 +1,3 @@
-
 //Team Members: Caleb Hermann & Aiden Walker
 //Date 1.24.2025
 //Program: Maze
